@@ -1,0 +1,59 @@
+:root {
+  --primary-color: #c084fc;
+  --PrimaryBtn-color: #e879f9;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin: auto;
+  padding: 1rem;
+  background-color: var(--primary-color);
+}
+
+.btns {
+  display: block;
+  background-color: var(--PrimaryBtn-color);
+  width: 5rem;
+  padding: 0.5rem;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1rem;
+}
+
+.sameInputType {
+  padding: 1rem;
+  width: 25vw;
+  margin: auto;
+  border-radius: 1rem;
+  border: none;
+}
+
+.sameLabelType {
+  margin: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+p {
+  text-align: center;
+}
+
+table {
+  margin: 1rem;
+  font-size: 1rem;
+  width: 40vw;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+td {
+  border: 1px solid black;
+}
